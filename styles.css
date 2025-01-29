@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+
+    padding: 25px;
+    flex-direction: row;
+    border-bottom: 3px solid rgb(94, 94, 94);
+    margin-bottom: 2rem;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    padding-top: 7px;
+}
+
+h1 a:hover{
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: rgb(222, 45, 228);
+    
+}
+
+.main-content{
+    width: 90vw;
+    margin: auto;
+}
+.description{
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #dddddd;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+span{
+    font-weight: 700;
+    font-style: italic;
+}
+
+.things h2{
+    text-align: center;
+
+}
+.about{
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+.about p{
+    margin-bottom: 2rem;
+}
