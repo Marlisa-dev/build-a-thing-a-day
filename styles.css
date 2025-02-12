@@ -54,21 +54,35 @@ span{
 
 .things h2{
     text-align: center;
-
 }
 .about{
-    padding: 1rem;
+    width: 80vw;
+    margin: auto;
+    padding-top: 2rem;
     font-size: 1.2rem;
     text-align: center;
 }
 .about p{
     margin-bottom: 2rem;
 }
-
+.about h3{
+    margin-bottom: 2rem;
+}
+.about ol{
+    text-align:left;
+    width: 70vw;
+    margin: auto;
+}
+.follow-me{
+    margin-top: 2rem;
+    text-align:left;
+}
 /* Card */
 .project-cards{
     margin-top: 1rem;
     display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); 
+    column-gap: 15px;
 }
 
 .card{
@@ -85,10 +99,30 @@ span{
 }
 .card a{
     text-decoration: underline;
+    font-size: 18px;
 }
-.card h3{
+.card h2{
     margin-bottom: 8px;
 }
 .card p{
     font-size: 1.1rem;
+}
+
+.card img{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.follow-me h2{
+    text-align: center;
+}
+.links{
+    margin-top: 2rem;
+    text-align: center;
+}
+.links a{
+    margin-left: 1rem;
+}
+.follow-me{
+    margin-bottom: 5rem;
 }
