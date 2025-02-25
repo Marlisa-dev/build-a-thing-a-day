@@ -112,6 +112,9 @@ span{
     border-radius: 10px;
     margin-bottom: 10px;
 }
+.completed-date{
+    margin-top: 7px;
+}
 
 .follow-me h2{
     text-align: center;
@@ -126,3 +129,4 @@ span{
 .follow-me{
     margin-bottom: 5rem;
 }
+
